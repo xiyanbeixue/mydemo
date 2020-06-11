@@ -3,13 +3,11 @@ package com.xiyan.mydemo.controller.user;
 import com.xiyan.mydemo.common.utils.ApiResult;
 import com.xiyan.mydemo.pojo.user.UserInfo;
 import com.xiyan.mydemo.service.user.UserInfoService;
+import com.xiyan.mydemo.vo.user.UserInfoVO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -22,10 +20,18 @@ public class UserInfoController {
     @Autowired
     private UserInfoService userInfoService;
 
-    @ApiOperation(value="获取用户列表")
+
+    @ApiOperation(value = "获取用户列表")
     @GetMapping("/list")
-    public ApiResult list(){
-        List<UserInfo> list= userInfoService.selectList();
+    public ApiResult list() {
+        List<UserInfo> list = userInfoService.selectList();
         return ApiResult.success(list);
+    }
+
+    @ApiOperation(value = "添加用户")
+    @PostMapping("/add")
+    private ApiResult add(UserInfoVO vo) {
+        userInfoService.insertEntity(vo);
+        return ApiResult.success();
     }
 }
