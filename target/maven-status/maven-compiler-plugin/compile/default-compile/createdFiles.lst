@@ -1,0 +1,9 @@
+com\xiyan\mydemo\pojo\user\UserInfo.class
+com\xiyan\mydemo\service\user\UserInfoServiceImpl.class
+com\xiyan\mydemo\controller\ApiTestController.class
+com\xiyan\mydemo\common\config\SwaggerConfig.class
+com\xiyan\mydemo\controller\user\UserInfoController.class
+com\xiyan\mydemo\MydemoApplication.class
+com\xiyan\mydemo\common\utils\ApiResult.class
+com\xiyan\mydemo\mapper\user\UserInfoMapper.class
+com\xiyan\mydemo\service\user\UserInfoService.class
