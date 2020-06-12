@@ -28,6 +28,7 @@ public class UserInfoController {
         return ApiResult.success(list);
     }
 
+    @ResponseBody
     @ApiOperation(value = "添加用户")
     @PostMapping("/add")
     private ApiResult add(UserInfoVO vo) {

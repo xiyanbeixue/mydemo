@@ -27,11 +27,27 @@
         insert into user_info(
         <if test="id != null and id != 0">id,</if>
         <if test="userId != null and userId != ''">user_id,</if>
+
+        <if test="username != null and username != ''">username,</if>
+        <if test="password != null and password != ''">password,</if>
+        <if test="salt != null and salt != ''">salt,</if>
         create_time
         )values(
         <if test="id != null and id != ''">#{id},</if>
         <if test="userId != null and userId != ''">#{userId},</if>
+        <if test="username != null and username != ''">#{username},</if>
+        <if test="password != null and password != ''">#{password},</if>
+        <if test="salt != null and salt != ''">#{salt},</if>
         sysdate()
         )
     </insert>
+    <select id="selectOneByUserName" parameterType="String" resultType="java.lang.Boolean">
+       SELECT
+            COUNT( username )
+        FROM
+            user_info
+        WHERE
+            username = #{username}
+            LIMIT 1;
+    </select>
 </mapper>

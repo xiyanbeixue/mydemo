@@ -1,5 +1,11 @@
 package com.xiyan.mydemo.common.utils;
 
+/**
+ * 雪花算法
+ * @Author xiyan
+ * @Date 2020/6/11
+ * @Version 1.0
+ */
 public class SnowflakeIdWorker {
     // ==============================Fields===========================================
     /** 开始时间截 (2020-04-23) */
