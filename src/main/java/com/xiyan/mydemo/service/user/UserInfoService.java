@@ -1,16 +1,16 @@
 package com.xiyan.mydemo.service.user;
 
 import com.xiyan.mydemo.pojo.user.UserInfo;
-import com.xiyan.mydemo.vo.user.UserInfoVO;
+import com.xiyan.mydemo.vo.user.UserInfoInsertVO;
+import com.xiyan.mydemo.vo.user.UserInfoUpdateVO;
 import org.apache.shiro.crypto.SecureRandomNumberGenerator;
 import org.apache.shiro.crypto.hash.Md5Hash;
 
 import java.util.List;
+import java.util.Objects;
 
 public interface UserInfoService {
     List<UserInfo> selectList();
-
-    int insertEntity(UserInfoVO vo);
 
     /**
      * 生成随机盐
@@ -23,17 +23,6 @@ public interface UserInfoService {
     }
 
     /**
-     * 新旧密码匹配
-     * @param user
-     * @param newPassword
-     * @return
-     */
-//    default boolean matches(User user, String newPassword)
-//    {
-//        return user.getPassword().equals(encryptPassword(user.getLoginName(), newPassword, user.getSalt()));
-//    }
-
-    /**
      * 密码加密
      * @param username
      * @param password
@@ -44,4 +33,22 @@ public interface UserInfoService {
     {
         return new Md5Hash(username + password + salt).toHex().toString();
     }
+
+    /**
+     * 新旧密码匹配
+     * @param username 原用户名
+     * @param password 原密码
+     * @param salt 原随机盐
+     * @param inputPassword 需验证的密码
+     * @return
+     */
+    default boolean matches(String username,String password,String salt,String inputPassword){
+        return Objects.equals(password,encryptPassword(username,inputPassword,salt));
+    }
+
+    int insertEntity(UserInfoInsertVO vo);
+
+    int deleteByUserId(Long userId);
+
+    int updateEntity(UserInfoUpdateVO vo);
 }

@@ -27,7 +27,6 @@
         insert into user_info(
         <if test="id != null and id != 0">id,</if>
         <if test="userId != null and userId != ''">user_id,</if>
-
         <if test="username != null and username != ''">username,</if>
         <if test="password != null and password != ''">password,</if>
         <if test="salt != null and salt != ''">salt,</if>
@@ -41,7 +40,7 @@
         sysdate()
         )
     </insert>
-    <select id="selectOneByUserName" parameterType="String" resultType="java.lang.Boolean">
+    <select id="existByUserName" parameterType="String" resultType="java.lang.Boolean">
        SELECT
             COUNT( username )
         FROM
@@ -50,4 +49,27 @@
             username = #{username}
             LIMIT 1;
     </select>
+    <delete id="deleteByUserId" parameterType="Long">
+        DELETE
+        FROM
+            user_info
+        WHERE
+            user_id = #{userId}
+    </delete>
+    <update id="updateEntity" parameterType="UserInfo">
+        update user_info
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="password != null and password != ''">password = #{password},</if>
+            <if test="username != null and username != ''">username = #{username},</if>
+        </trim>
+        where user_id = #{userId}
+    </update>
+    <select id="selectEntityByUserId" parameterType="Long" resultMap="EntityResult">
+        <include refid="selectEntityPojo"/>
+        <where>
+            <if test="id != null and id != 0">and id = #{id}</if>
+            <if test="userId != null and userId != ''">and user_id = #{userId}</if>
+        </where>
+    </select>
+
 </mapper>

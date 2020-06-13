@@ -130,5 +130,8 @@
     <orderEntry type="library" name="Maven: org.apache.shiro:shiro-config-core:1.5.3" level="project" />
     <orderEntry type="library" name="Maven: org.apache.shiro:shiro-config-ogdl:1.5.3" level="project" />
     <orderEntry type="library" name="Maven: org.apache.shiro:shiro-event:1.5.3" level="project" />
+    <orderEntry type="library" name="Maven: org.hibernate.validator:hibernate-validator:6.1.5.Final" level="project" />
+    <orderEntry type="library" name="Maven: jakarta.validation:jakarta.validation-api:2.0.2" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.logging:jboss-logging:3.4.1.Final" level="project" />
   </component>
 </module>

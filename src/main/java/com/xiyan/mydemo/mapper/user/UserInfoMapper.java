@@ -11,5 +11,11 @@ public interface UserInfoMapper {
 
     int insertEntity(UserInfo entity);
 
-    boolean selectOneByUserName(String username);
+    boolean existByUserName(String username);
+
+    int deleteByUserId(Long userId);
+
+    int updateEntity(UserInfo entity);
+
+    UserInfo selectEntityByUserId(Long userId);
 }

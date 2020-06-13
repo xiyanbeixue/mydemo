@@ -20,40 +20,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="656f0cc1-f54d-4fe6-90ac-3a3c3970c5b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiyan/mydemo/common/config/CustomException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiyan/mydemo/common/config/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiyan/mydemo/common/utils/RegexUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/mydemo.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiyan/mydemo/common/config/CustomException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiyan/mydemo/common/config/GlobalExceptionHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiyan/mydemo/common/utils/DozerUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiyan/mydemo/common/utils/RegexUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiyan/mydemo/common/utils/SnowflakeIdWorker.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiyan/mydemo/pojo/user/UserInfo$UserInfoBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiyan/mydemo/vo/user/UserInfoVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiyan/mydemo/vo/user/UserInfoInsertVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mydemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mydemo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiyan/mydemo/common/config/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiyan/mydemo/common/config/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiyan/mydemo/common/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiyan/mydemo/common/config/SwaggerConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/xiyan/mydemo/common/utils/ApiResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiyan/mydemo/common/utils/ApiResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiyan/mydemo/common/utils/GenarateIdUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiyan/mydemo/common/utils/GenarateIdUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiyan/mydemo/common/utils/SnowflakeIdWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiyan/mydemo/common/utils/SnowflakeIdWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiyan/mydemo/common/utils/RegexUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiyan/mydemo/common/utils/RegexUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/xiyan/mydemo/controller/user/UserInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiyan/mydemo/controller/user/UserInfoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/xiyan/mydemo/mapper/user/UserInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiyan/mydemo/mapper/user/UserInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiyan/mydemo/service/user/UserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiyan/mydemo/service/user/UserInfoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/xiyan/mydemo/service/user/UserInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiyan/mydemo/service/user/UserInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiyan/mydemo/vo/user/UserInfoVO.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/user/UserInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/user/UserInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiyan/mydemo/common/config/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xiyan/mydemo/common/config/GlobalExceptionHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/xiyan/mydemo/common/config/SwaggerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xiyan/mydemo/common/config/SwaggerConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/xiyan/mydemo/common/utils/ApiResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xiyan/mydemo/common/utils/ApiResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiyan/mydemo/common/utils/GenarateIdUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xiyan/mydemo/common/utils/GenarateIdUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiyan/mydemo/common/utils/GenarateUniqueNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiyan/mydemo/common/utils/RegexUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xiyan/mydemo/common/utils/RegexUtils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/xiyan/mydemo/controller/user/UserInfoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xiyan/mydemo/controller/user/UserInfoController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/xiyan/mydemo/mapper/user/UserInfoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xiyan/mydemo/mapper/user/UserInfoMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xiyan/mydemo/pojo/user/UserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xiyan/mydemo/pojo/user/UserInfo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/xiyan/mydemo/service/user/UserInfoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xiyan/mydemo/service/user/UserInfoService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/xiyan/mydemo/service/user/UserInfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xiyan/mydemo/service/user/UserInfoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xiyan/mydemo/vo/user/UserInfoVO.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/mybatis/user/UserInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis/user/UserInfoMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -100,9 +98,12 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xiyan.mydemo.vo.user" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\dev\myprojects\mydemo\src\main\resources\mybatis\user" />
     </key>
@@ -148,7 +149,8 @@
       <workItem from="1591750625375" duration="24267000" />
       <workItem from="1591837392413" duration="679000" />
       <workItem from="1591838122762" duration="22466000" />
-      <workItem from="1591924019533" duration="7159000" />
+      <workItem from="1591924019533" duration="10224000" />
+      <workItem from="1592011689195" duration="15303000" />
     </task>
     <servers />
   </component>
@@ -172,66 +174,70 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="235" y="348" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591751150246" />
-    <state x="765" y="224" key="#com.intellij.ide.util.MemberChooser" timestamp="1591843580787">
+    <state x="765" y="224" key="#com.intellij.ide.util.MemberChooser" timestamp="1592026440042">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="224" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591843580787" />
+    <state x="765" y="224" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1592026440042" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1591770065869">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591770065869" />
-    <state width="1876" height="362" key="GridCell.Tab.0.bottom" timestamp="1591953065676">
+    <state width="1876" height="410" key="GridCell.Tab.0.bottom" timestamp="1592032192730">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="362" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591953065676" />
-    <state width="1876" height="362" key="GridCell.Tab.0.center" timestamp="1591953065675">
+    <state width="1876" height="410" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592032192730" />
+    <state width="1876" height="410" key="GridCell.Tab.0.center" timestamp="1592032192729">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="362" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591953065675" />
-    <state width="1876" height="362" key="GridCell.Tab.0.left" timestamp="1591953065675">
+    <state width="1876" height="410" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592032192729" />
+    <state width="1876" height="410" key="GridCell.Tab.0.left" timestamp="1592032192729">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="362" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591953065675" />
-    <state width="1876" height="362" key="GridCell.Tab.0.right" timestamp="1591953065676">
+    <state width="1876" height="410" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592032192729" />
+    <state width="1876" height="410" key="GridCell.Tab.0.right" timestamp="1592032192729">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="362" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591953065676" />
-    <state width="1876" height="362" key="GridCell.Tab.1.bottom" timestamp="1591953065676">
+    <state width="1876" height="410" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592032192729" />
+    <state width="1876" height="410" key="GridCell.Tab.1.bottom" timestamp="1592032192731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="362" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591953065676" />
-    <state width="1876" height="362" key="GridCell.Tab.1.center" timestamp="1591953065676">
+    <state width="1876" height="410" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592032192731" />
+    <state width="1876" height="410" key="GridCell.Tab.1.center" timestamp="1592032192730">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="362" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591953065676" />
-    <state width="1876" height="362" key="GridCell.Tab.1.left" timestamp="1591953065676">
+    <state width="1876" height="410" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592032192730" />
+    <state width="1876" height="410" key="GridCell.Tab.1.left" timestamp="1592032192730">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="362" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591953065676" />
-    <state width="1876" height="362" key="GridCell.Tab.1.right" timestamp="1591953065676">
+    <state width="1876" height="410" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592032192730" />
+    <state width="1876" height="410" key="GridCell.Tab.1.right" timestamp="1592032192730">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="362" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591953065676" />
-    <state width="1876" height="362" key="GridCell.Tab.2.bottom" timestamp="1591953065677">
+    <state width="1876" height="410" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592032192730" />
+    <state width="1876" height="410" key="GridCell.Tab.2.bottom" timestamp="1592032192731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="362" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591953065677" />
-    <state width="1876" height="362" key="GridCell.Tab.2.center" timestamp="1591953065677">
+    <state width="1876" height="410" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592032192731" />
+    <state width="1876" height="410" key="GridCell.Tab.2.center" timestamp="1592032192731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="362" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591953065677" />
-    <state width="1876" height="362" key="GridCell.Tab.2.left" timestamp="1591953065676">
+    <state width="1876" height="410" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592032192731" />
+    <state width="1876" height="410" key="GridCell.Tab.2.left" timestamp="1592032192731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="362" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591953065676" />
-    <state width="1876" height="362" key="GridCell.Tab.2.right" timestamp="1591953065677">
+    <state width="1876" height="410" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592032192731" />
+    <state width="1876" height="410" key="GridCell.Tab.2.right" timestamp="1592032192731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="362" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591953065677" />
-    <state x="461" y="151" key="SettingsEditor" timestamp="1591837997568">
+    <state width="1876" height="410" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592032192731" />
+    <state x="531" y="126" width="858" height="580" key="Registry" timestamp="1592015383303">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591837997568" />
+    <state x="531" y="126" width="858" height="580" key="Registry/0.0.1920.1040@0.0.1920.1040" timestamp="1592015383303" />
+    <state x="461" y="151" key="SettingsEditor" timestamp="1592015298333">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1592015298333" />
     <state x="490" y="223" width="596" height="594" key="find.popup" timestamp="1591950373120">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -245,9 +251,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/xiyan/mydemo/controller/user/UserInfoController.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="7" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/xiyan/mydemo/service/user/UserInfoServiceImpl.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

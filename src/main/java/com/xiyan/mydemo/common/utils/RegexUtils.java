@@ -12,11 +12,11 @@ public class RegexUtils {
     private static final String REGEX_LOGINNAME="^[a-zA-Z0-9_-]{4,16}$";
     public static final String REGEX_LOGINNAME_ERROR="登录名仅支持4~16位字母、数字、下划线、减号";
 
-    private static final String REGEX_USERNAME="^[a-zA-Z0-9_-]{4,16}$";
+    public static final String REGEX_USERNAME="^[a-zA-Z0-9_-]{4,16}$";
     public static final String REGEX_USERNAME_ERROR="用户名仅支持2~16位中英文、数字、减号或下划线";
 
-    private static final String REGEX_PASSWORD="(?![^a-zA-Z0-9]+$)(?![^a-zA-Z/D]+$)(?![^0-9/D]+$).{4,16}$";
-    public static final String REGEX_PASSWORD_ERROR="密码仅支持6~16位字母、数字、字符";
+    public static final String REGEX_PASSWORD="^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z\\\\W]{6,16}$";
+    public static final String REGEX_PASSWORD_ERROR="密码必须包含数字和字母，且在6~116位之间";
 
     /**
      * 校验登录名
